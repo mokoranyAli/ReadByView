@@ -1,0 +1,6 @@
+framework module Pods_ReadByView_Example {
+  umbrella header "Pods-ReadByView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

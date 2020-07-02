@@ -1,0 +1,16 @@
+PODS:
+  - ReadByView (0.1.0)
+
+DEPENDENCIES:
+  - ReadByView (from `../`)
+
+EXTERNAL SOURCES:
+  ReadByView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ReadByView: 551e45f08f5ad1d09aa86b4b4e0d155b10fe39d5
+
+PODFILE CHECKSUM: 8d58c1790f52084e9ef74c1e1f13c660239c61c7
+
+COCOAPODS: 1.9.1

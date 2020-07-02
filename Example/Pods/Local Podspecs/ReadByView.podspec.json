@@ -1,0 +1,22 @@
+{
+  "name": "ReadByView",
+  "version": "0.1.0",
+  "summary": "A short description of ReadByView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/mokoranyAli/ReadByView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "mokoranyAli": "mohammed.korany.ali@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/mokoranyAli/ReadByView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ReadByView/Classes/**/*"
+}
