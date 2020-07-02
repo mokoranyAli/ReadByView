@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ReadByView_Example' do
+  pod 'ReadByView', :path => '../'
+
+  target 'ReadByView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
