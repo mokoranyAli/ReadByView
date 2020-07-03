@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ReadByView" customModule="ReadByViewApp" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="iN0-l3-epB" id="tAm-hd-i6l"/>
+                <outlet property="imagesCollectionView" destination="uFc-7F-CkX" id="xn7-bi-2dq"/>
+                <outlet property="readByLabel" destination="PQp-l6-ale" id="RHb-4E-iBA"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="482" height="137"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Read by" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PQp-l6-ale">
+                    <rect key="frame" x="2" y="48.5" width="76" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="TUo-UA-T9j"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                    <color key="textColor" red="0.59215686270000001" green="0.59215686270000001" blue="0.59215686270000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="uFc-7F-CkX">
+                    <rect key="frame" x="78" y="48.5" width="396" height="40"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Zwc-lZ-YXq">
+                        <size key="itemSize" width="50" height="50"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                </collectionView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="uFc-7F-CkX" firstAttribute="leading" secondItem="PQp-l6-ale" secondAttribute="trailing" id="39J-vS-2Gt"/>
+                <constraint firstItem="uFc-7F-CkX" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="6Hz-wR-MAo"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="uFc-7F-CkX" secondAttribute="trailing" constant="8" id="7Eh-Ev-3V2"/>
+                <constraint firstItem="uFc-7F-CkX" firstAttribute="height" secondItem="PQp-l6-ale" secondAttribute="height" id="9e0-WJ-SGQ"/>
+                <constraint firstItem="PQp-l6-ale" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="JcW-cA-Ymy"/>
+                <constraint firstItem="PQp-l6-ale" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="2" id="qxN-KO-d2G"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="181.15942028985509" y="-100.78125"/>
+        </view>
+    </objects>
+</document>
