@@ -9,6 +9,9 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+## Photo for ReadByView
+![Simulator Screen Shot - iPhone 11 Pro Max - 2020-07-03 at 05 33 49](https://user-images.githubusercontent.com/45698820/86429702-98cd8480-bcf0-11ea-9dfb-bb530a0b0fe3.png)
+
 ## Requirements
 ios 12 or later
 
