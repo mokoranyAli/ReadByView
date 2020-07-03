@@ -14,7 +14,8 @@ extension ReadByView: UICollectionViewDataSource  , UICollectionViewDelegate , U
     
     
      func initCollectionView() {
-        let nib = UINib(nibName: ReadByCollectionViewCell.identifier, bundle: nil)
+        let bundle = Bundle(for: ReadByView.self)
+        let nib = UINib(nibName: ReadByCollectionViewCell.identifier, bundle: bundle)
             imagesCollectionView.register(nib, forCellWithReuseIdentifier: ReadByCollectionViewCell.identifier)
             imagesCollectionView.dataSource = self
             imagesCollectionView.delegate = self
