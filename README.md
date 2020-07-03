@@ -18,6 +18,8 @@ let photots =
 
 - add UIView in stoaryboard make its type ReadByview or just make it with code like :
 let readByViewProgrammatically = ReadByView(frame: CGRect(x: your x posiotin, y: your y, width: your width, height: your height))
+self.view.addSubview(readByViewProgrammatically)
+
 
 - readByViewProgrammatically.photots = photots as! [UIImage]
   readByViewProgrammatically.numberOfPicturesThatAppear = 4 
