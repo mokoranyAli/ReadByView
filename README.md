@@ -8,16 +8,18 @@
 ## Example
 - import ReadByview
 
-- declare your array of UIImage like  let photots =
+- declare your array of UIImage like :
+let photots =
     [UIImage(named: "me")
         ,UIImage(named: "me1")
         ,UIImage(named: "me2")
         ,UIImage(named: "me3")
         ,UIImage(named: "me4")]
 
-- add UIView in stoaryboard make its type ReadByview or just make it with code like let readByViewProgrammatically = ReadByView(frame: CGRect(x: your x posiotin, y: your y, width: your width, height: your height))
+- add UIView in stoaryboard make its type ReadByview or just make it with code like :
+let readByViewProgrammatically = ReadByView(frame: CGRect(x: your x posiotin, y: your y, width: your width, height: your height))
 
-- eadByViewProgrammatically.photots = photots as! [UIImage]
+- readByViewProgrammatically.photots = photots as! [UIImage]
   readByViewProgrammatically.numberOfPicturesThatAppear = 4
   
   **you can take a look Example directory first.**
@@ -26,7 +28,10 @@
 
 
 ## Photo for ReadByView
-![Simulator Screen Shot - iPhone 11 Pro Max - 2020-07-03 at 05 33 49](https://user-images.githubusercontent.com/45698820/86429702-98cd8480-bcf0-11ea-9dfb-bb530a0b0fe3.png)
+
+ **NOTE : the picture here is too big xD**
+
+ ![Simulator Screen Shot - iPhone 11 Pro Max - 2020-07-03 at 05 33 49](https://user-images.githubusercontent.com/45698820/86429702-98cd8480-bcf0-11ea-9dfb-bb530a0b0fe3.png)
 
 ## Requirements
 ios 12 or later
