@@ -8,11 +8,11 @@
 
 import UIKit
 
-class ReadByCollectionViewCell: UICollectionViewCell {
+public class ReadByCollectionViewCell: UICollectionViewCell {
 
     @IBOutlet weak var imageCell: ReadByCircularImageView!
     static let identifier = "\(ReadByCollectionViewCell.self)"
-    override func awakeFromNib() {
+    override public func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
     }
