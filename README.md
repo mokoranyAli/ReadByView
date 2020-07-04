@@ -38,6 +38,7 @@ self.view.addSubview(readByViewProgrammatically)
 
 ## Requirements
 ios 12 or later
+
 swift 5
 
 ## Installation
