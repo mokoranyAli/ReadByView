@@ -9,12 +9,15 @@
 - import ReadByview
 
 - declare your array of UIImage like :
+
+```swift
 let photots =
     [UIImage(named: "me")
         ,UIImage(named: "me1")
         ,UIImage(named: "me2")
         ,UIImage(named: "me3")
         ,UIImage(named: "me4")]
+        ```
 
 - add UIView in stoaryboard make its type ReadByview or just make it with code like :
 let readByViewProgrammatically = ReadByView(frame: CGRect(x: your x posiotin, y: your y, width: your width, height: your height))
