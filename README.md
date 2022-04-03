@@ -17,17 +17,19 @@ let photots =
         ,UIImage(named: "me2")
         ,UIImage(named: "me3")
         ,UIImage(named: "me4")]
-        ```
+  ```
 
 - add UIView in stoaryboard make its type ReadByview or just make it with code like :
+
+```swift
 let readByViewProgrammatically = ReadByView(frame: CGRect(x: your x posiotin, y: your y, width: your width, height: your height))
 self.view.addSubview(readByViewProgrammatically)
+ 
 
-
-- readByViewProgrammatically.photots = photots as! [UIImage]
+  readByViewProgrammatically.photots = photots as! [UIImage]
   readByViewProgrammatically.numberOfPicturesThatAppear = 4 
   readByViewProgrammatically.readByLabelText = "your label"
-  
+  ```
   
   **you can take a look Example directory first.**
   
