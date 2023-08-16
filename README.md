@@ -8,7 +8,7 @@
 ## Example
 - import ReadByview
 
-- declare your array of UIImage like :
+- declare your array of UIImage like:
 
 ```swift
 let photots =
